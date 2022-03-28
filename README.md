@@ -24,7 +24,7 @@ The figure above shows the information on CVSS Scores & Vulnerability Types on t
 [The image is from here](https://www.cvedetails.com/cve/CVE-2021-28040/)
 
 ## What is XML
-The Extensible Markup Language (XML) is a text-based format for encoding structured data, such as documents, data, configuration, books, transactions, invoices, and more. It's also popular in sharing structured data between programmes, computers, and humans, both locally and over networks.
+The Extensible Markup Language (XML) is a text-based format for encoding structured data, such as documents, data, configuration, books, transactions, invoices, and more. It's also popular in sharing structured data between programs, computers, and people, both locally and over networks.
 
 Many computer systems have data in formats that are incompatible. Web developers spend a lot of time transferring data between incompatible (or upgraded) systems. Incompatible data is frequently lost when large amounts of data must be translated. Data is stored in plain text format in XML. This provides a method of storing, transmitting, and sharing data that is independent of software and hardware. Data can be made available to a variety of "reading machines," such as people, computers, voice machines, news feeds, and so on, using XML.
 
