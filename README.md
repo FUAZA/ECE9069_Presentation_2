@@ -9,12 +9,12 @@
 - Potential Mitigations
 
 ## Background of OSSEC-HIDS
-OSSEC-HIDS is a host-based intrusion detection system that is free and open-source, which offers four main features, including log analysis, integrity checking, rootkit detection, and active response. Meanwhile, OSSEC has a central manager which is in charge of monitoring and receiving data from agents, syslog, databases, and agentless devices. It stores the file integrity checking databases, the logs, events, and system auditing entries.
+OSSEC-HIDS is a free and open-source host-based intrusion detection system that includes four primary functions: log analysis, integrity checking, rootkit identification, and active response. In the meantime, OSSEC has a central manager who is responsible for monitoring and receiving data from agents, syslog, databases, and agentless devices. It keeps track of file integrity databases, logs, events, and system auditing entries.
 
 The agents will gather information and forward it to the manager for analysis and correlation. 
 ![image](https://www.ossec.net/docs/_images/ossec-arch.jpg)
 
-This diagram above shows the central manager receiving events from the agents and system logs from remote devices. When certain conditions are detected, active responses can be performed and the administrator is notified.
+The central manager receives events from the agents as well as system logs from remote devices, as shown in the diagram above. Active reactions can be conducted when particular conditions are identified, and the administrator is notified.
 
 ## The issue in CVE-2021-28040
 ![image](https://user-images.githubusercontent.com/101413304/160301804-b5ff864d-9a2d-4837-9035-9a927a42075d.png)
